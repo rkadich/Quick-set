@@ -1,0 +1,65 @@
+QWidget
+{
+	background-color: #2e3133;
+}
+
+
+#b_icon
+{
+background-color: transparent;
+background: none;
+border: none;
+background-repeat:none;
+}
+#b_icon:pressed
+{
+background:none;
+background-color: #355e8b;
+}
+
+#b_icon:hover:!pressed
+{
+	background:none;
+	background-color: #444c51;
+}
+
+QPushButton:hover
+{
+	background:none;
+	background-color: #2e3133;
+	color: #a9b5bd;
+}
+QLineEdit
+{
+	background-color: #202223;
+}
+
+QMenu {
+       font-size: 12px;
+       }
+
+QMenu::item {
+            padding: 4px 20px 4px 30px;
+            border: 4px solid transparent; /* reserve space for selection border */
+            spacing: 1px;
+            height: 12px;
+        }
+
+QMenu::item:selected
+		{
+		background:none;
+		background-color: #355e8b;
+            
+        }
+
+QTableWidget::item:selected
+		{
+		background-color: #355e8b;
+		
+		}
+
+QToolTip {
+		background-color: #2e3133;
+		color: #FFFAE6;
+		border: white solid 1px
+		}
